@@ -12,26 +12,28 @@
 }
 
 .links {
+  position: relative;
   text-decoration: none;
   color: white;
   margin: 50px 0px 10px 30px;
+  
 }
 
-.link::before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #FFF;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
+.links:after {
+  content: '';
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .5s ease;
+  -webkit-transition: width .2s ease;
 }
 
-.link:hover:before {
-  visibility: visible;
+.links:hover:after {
   width: 100%;
+  left: 0;
+  background: #fff;
 }
 
 .right-navbar {
