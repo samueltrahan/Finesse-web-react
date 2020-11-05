@@ -3,8 +3,8 @@ import './NavBar.css';
 
 export default function NavBar() {
   return (
-    <div className="navbar">
-      <nav>
+    <div>
+      <nav className="navbar">
         <div className="left-navbar">
         <a className="links" href="/">Home</a>
         <a className="links" href="/about">About</a>

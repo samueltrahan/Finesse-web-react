@@ -2,10 +2,13 @@
   background-color: black;
   height: 75px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 300px 1fr 1fr 1fr;;
 }
 .left-navbar {
   grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .links {
@@ -32,5 +35,20 @@
 }
 
 .right-navbar {
-    grid-column: 2/3;
+    grid-column: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+  margin-right: 20px;
+  margin-top: 25px;
+  color: gold;
+}
+
+.subscribe {
+  text-decoration: none;
+  color: white;
+  margin-top: 25px;
 }
