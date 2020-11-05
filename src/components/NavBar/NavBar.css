@@ -1,0 +1,31 @@
+.navbar {
+  background-color: black;
+  height: 75px;
+}
+.about-home {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  margin: 50px 0px 10px 30px;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover:before {
+  visibility: visible;
+  width: 100%;
+}
