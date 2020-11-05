@@ -44,11 +44,23 @@
 .socials {
   margin-right: 20px;
   margin-top: 25px;
-  color: gold;
+  color: rgb(223, 172, 61);
 }
 
 .subscribe {
   text-decoration: none;
   color: white;
   margin-top: 25px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 80px;
+  height:22px;
+  text-align: center;
+  transition: background-color .7s;
+}
+
+.subscribe:hover {
+  color: white;
+  background-color: rgb(223, 172, 61);
+  transition: background-color .7s;
 }

@@ -1,0 +1,25 @@
+
+.banner {
+  background-color: black;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.finesse-logo {
+  width: 150px;
+  margin-top: 90px;
+}
+
+.banner-quote {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.professional {
+  color: rgb(223, 172, 61);
+}
