@@ -1,10 +1,11 @@
 .navbar {
   background-color: black;
   height: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.about-home {
-  display: flex;
-  justify-content: flex-start;
+.left-navbar {
+  grid-column: 1/2;
 }
 
 .links {
@@ -28,4 +29,8 @@
 .link:hover:before {
   visibility: visible;
   width: 100%;
+}
+
+.right-navbar {
+    grid-column: 2/3;
 }
