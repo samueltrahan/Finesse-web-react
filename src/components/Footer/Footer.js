@@ -16,6 +16,7 @@ export default function Footer() {
         </a>
         <a
           className="footer-links"
+          rel="noreferrer"
           target="_blank"
           href="https://www.cinquewd.com/"
         >
@@ -24,6 +25,7 @@ export default function Footer() {
         <a
           className="footer-links"
           target="_blank"
+          rel="noreferrer"
           href="https://github.com/samueltrahan/Finesse-web-react"
         >
           GitHub
@@ -31,6 +33,7 @@ export default function Footer() {
         <a
           className="footer-links"
           target="_blank"
+          rel="noreferrer"
           href="https://twitter.com/SamuelTrahan4"
         >
           Twitter

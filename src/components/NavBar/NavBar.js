@@ -11,9 +11,9 @@ export default function NavBar() {
         <a className="links" href="/started">Getting Started</a>
         </div>
         <div className="right-navbar">
-          <a className="socials" href="https://github.com/samueltrahan/Finesse-web-react"><i className="fab fa-github fa-2x"></i></a>
-          <a className="socials" href="https://twitter.com/SamuelTrahan4"><i className="fab fa-twitter fa-2x"></i></a>
-          <a className="subscribe" href="/subscribe">Subscribe</a>
+          <a target="_blank" rel="noreferrer" className="socials" href="https://github.com/samueltrahan/Finesse-web-react"><i className="fab fa-github fa-2x"></i></a>
+          <a target="_blank" rel="noreferrer" className="socials" href="https://twitter.com/SamuelTrahan4"><i className="fab fa-twitter fa-2x"></i></a>
+          <a target="_blank" rel="noreferrer" className="subscribe" href="/subscribe">Subscribe</a>
         </div>
       </nav>
     </div>
