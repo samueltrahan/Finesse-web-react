@@ -10,3 +10,8 @@ body {
  align-items: baseline;
  flex-wrap: wrap;
 }
+
+.source-section {
+  background-color: rgb(24, 26, 28);
+  display: inline-block;
+}
