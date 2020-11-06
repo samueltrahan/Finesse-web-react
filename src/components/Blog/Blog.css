@@ -1,7 +1,28 @@
-hr.solid {
-  border-top: 2px solid grey;
-}
 
 .cards {
-  background-color: rgb(24, 26, 28);
+  transition: .3s;
+  width: 20vw;
+  margin: 40px;
+  text-decoration: none;
+}
+
+.element {
+  text-decoration: none;
+}
+
+.head {
+  color:  rgb(52, 151, 208);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.paragraph {
+  color: grey;
+  text-decoration: none;
 }
