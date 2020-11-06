@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Blog.css";
 
-export default function Blog({ image, head, title, paragraph }) {
+export default function Blog({ path, image, head, title, paragraph }) {
   return (
     <>
-      <Link to="/blog">
+      <Link className="card-link" to={path}>
         <div className="cards">
           <div className="image">
             <img alt="" src={image} style={{ width: '250px', height: '180px', borderRadius: '10px 10px 0 0'}}></img>

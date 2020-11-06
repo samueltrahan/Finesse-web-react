@@ -1,3 +1,6 @@
+.card-link {
+  text-decoration: none;
+}
 
 .cards {
   transition: .3s;
